@@ -2,5 +2,4 @@
 
 Site is deployed at:
 
-https://friend-finder-fabulous.herokuapp.com/ | https://git.heroku.com/friend-finder-fabulous.git
-
+https://immense-woodland-98309.herokuapp.com/ | https://git.heroku.com/immense-woodland-98309.git
