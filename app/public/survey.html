@@ -1,12 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
     <title>Document</title>
 </head>
+<style>
+
+</style>
+
 <body>
-    <h1>This is the survey!</h1>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Friend Finder</h1>
+            <p class="lead">Fill out the survey below to connect with friends from around the world!</p>
+        </div>
+    </div>
+    <form class="container">
+        <div class="form-group">
+            <p>Full Name</p>
+            <label for="inputPassword2" class="sr-only">Name</label>
+            <input type="name" class="form-control" id="userName" placeholder="Name">
+        </div>
+        <hr>
+        <p>How strongly do you agree with the following statements? </p>
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 1: I have a vivid imagination.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 2: I love large parties.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 3: I believe in the importance of
+                art.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 4: I get angry easily.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 5: I prefer variety to routine.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 6: I love to solve complex
+                problems.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 7: I often eat too much.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 8: I would never cheat on my
+                taxes.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 9: I am easy to satisfy.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="input-group-text" for="inputGroupSelect01">Question 10: I dislike being the center of
+                attention.</label>
+        </div>
+        <div class="form-group">
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Not Sure)</option>
+                <option value="1">4 (Somewhat Agree)</option>
+                <option value="2">5 (Strongly Agree)</option>
+
+            </select>
+        </div>
+        <div class="form-group">
+            <button id="submitButton" class="btn btn-primary" type="submit">Submit Survey</button>
+        </div>
+    </form>
+    <hr>
+    <div class="container">
+        <a href="/">Head back to our home page!</a>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal" id="friendModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">New Friend Found</h5>
+                </div>
+                <div class="modal-body">
+                    <h2 id="friendName">John Smith</h2>
+                    <img id="friendImage" height="220" width="200" src="https://cdn.pixabay.com/photo/2016/09/24/03/20/passion-1690965_1280.jpg">
+                    <hr>
+                    <p id="friendSummary">How's it going? My name is John Smith. I'm so glad that we're a match. I'm sure we can become good friends. Send me a message. I'd love to learn more about you.</p>
+                </div>
+                <div class="modal-footer">
+                    <button id="modalClose" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+    $("#submitButton").on("click", function(event) {
+        event.preventDefault();
+        $("#friendModal").show();
+    });
+
+    $("#modalClose").on("click", function() {
+        $("#friendModal").hide();
+    });
+
+</script>
+
 </html>
