@@ -3,6 +3,8 @@
 ## Overview
 Friend Finder is an application that matches users with other friends based on the results of a ten-question survey. When the survey is submitted, the friend record most similar to the user's submitted survey is found and returned. This application is implemented using a Node.js and Express server on the back end. HTML with a MDBootstrap CSS framework and Jquery for DOM manipulation was used on the front end. You can checkout the deployed website [here](https://immense-woodland-98309.herokuapp.com/).
 
+![](app\public\assets\images\Friend-Finder.gif)
+
 ## Technologies Used
 
 1. HTML

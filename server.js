@@ -6,8 +6,9 @@ var path = require("path");
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
+app.use(express.static('app'));
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -92,9 +93,9 @@ app.get("/api/friends", function (req, res) {
 })
 app.post("/api/friends", function (req, res) {
     var userInput = JSON.stringify(req.body);
-    console.log("1The user input the following data: " + userInput)
+    console.log("The user input the following data: " + userInput)
     var userScores = req.body.scores;
-    console.log("5The user scores are as follows: " + userScores)
+    console.log("The user scores are as follows: " + userScores)
 
     // Compute best friend match
 		var minDiff = 10000; // Make the initial value big for comparison
@@ -118,7 +119,7 @@ app.post("/api/friends", function (req, res) {
 		}
 
 		// Add new user
-        friendsArray.push(userInput);
+        friendsArray.push(req.body);
         console.log("You're a match with " + JSON.stringify(friendsArray[match]));
         res.json(friendsArray[match]);
 });

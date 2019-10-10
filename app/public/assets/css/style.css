@@ -1,0 +1,64 @@
+.title {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 7.5rem;
+    color: white;
+    display: inline;
+    position: relative;
+    letter-spacing: -5px;
+    color: #3498db;
+}
+
+.title:after {
+    content: "Friend Finder";
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    color: #ff7979;
+}
+
+.survey-h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    display: inline;
+    position: relative;
+    letter-spacing: -5px;
+    color: #3498db;
+}
+
+.survey-h1:after {
+    content: "Friend Finder";
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    color: #ff7979;
+}
+
+.contentContainer {
+    height: 100vh;
+    background-image: url("../images/design1.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.front-page {
+    padding: 100px;
+}
+
+.jumbotron {
+    text-align: center;
+    background: linear-gradient(90deg, transparent, #ffbe76, #ff7979, transparent);
+}
+
+.survey-title {
+    text-align: center;
+    background: linear-gradient(90deg, transparent, #ffbe76, #ff7979);
+}
+
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
